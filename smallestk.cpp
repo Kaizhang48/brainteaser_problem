@@ -3,10 +3,10 @@
 // c++ -o sk smallestk.cpp -std=c++11
 // execute with
 // ./sk
+//writen by KAIZHANG
 #include<iostream>
 #include<set>
 #include<cmath>
-#include<cstdlib>
 using namespace std;
 void setmaker(const int&, const int&, set<int>&);
 
@@ -55,13 +55,8 @@ int main()
 	int a;
 	cin >> n >> a;
 	cout << "smallest k is: " << smallestk(n, a) << endl;
-
 	return 0;
 }
-
-
-
-
 
 
 void setmaker(const int& n, const int& a, set<int>& c) {
